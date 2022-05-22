@@ -38,4 +38,4 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}      
     
     - name: Push the Docker image
-      run: docker push ${{ steps.build-image.outputs.image }}
+      run: docker push ${{ steps.build-image.outputs.image_name }}
