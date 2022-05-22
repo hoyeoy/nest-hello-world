@@ -6,7 +6,7 @@ on:
       - '**'
 
 env:
-  DOCKER_REPOSITORY: hoyeoy
+  DOCKER_REPOSITORY: hoyeonyang
   CONTAINER_NAME: nest-hello-world
 
 
